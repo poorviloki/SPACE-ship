@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;700&display=swap");
+body{
+    background-image: url("https://i1.faceprep.in/ProGrad/sky-moon-bg.png" );
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    font-family: "Exo 2", sans-serif;
+
+    }
+    #image1{
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        height:500px;
+    }
+#image2{
+    position: absolute;
+    height: 425px;
+    top: 30%;
+    left: 30%
+}
+.Display{
+    Display: block;
+
+}
+form{
+    position: absolute;
+    top: 15%;
+    left: 65%;
+    background-color: white;
+    padding: 0px 75px;
+    border-radius: 5px;
+}
+.rent label{
+    margin-right: 20px;
+}
+label{
+    font-size: 16px;
+    margin: 20px 0px 4px 0px;
+}
+#button{
+    display: block;
+    color: white;
+    background-color:#ec7920;
+    padding: 15px 20px;
+    margin: 40px auto;
+    border-radius:20px ;
+    border: none;
+}
+select,input[type= "number"],
+input[type='text'] {
+    width: 300px;
+    height:40px;
+    border: 1px solid gray;
+}
